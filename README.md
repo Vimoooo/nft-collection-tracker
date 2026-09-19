@@ -38,7 +38,7 @@ def display_collection(data):
     print(f"Discord:     {data.get('discord_url', 'N/A')}")
 
 
-():
+def main():
     if API_KEY == "YOUR_OPENSEA_API_KEY":
         raise ValueError(
             "Please add your OpenSea API key."
