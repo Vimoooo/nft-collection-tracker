@@ -2,7 +2,7 @@ import requests
 
 API_URL = "https://api.opensea.io/api/v2/collections"
 
-API_KEY = ""
+API_KEY = "YOUR_OPENSEA_API_KEY"
 COLLECTION_SLUG = "doodles"
 
 HEADERS = {
